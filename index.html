@@ -7,16 +7,145 @@
     <link rel = "stylesheet" href = "style.css">
 </head>
 <body>
-    <aside class = "sidebar">
+    <div class = "dashboard">
+        <aside class = "sidebar">
+            <div class = "side-bar-element" id = "sidebar-title">
+                <h1>Dashboard</h1>
+            </div>
+            <div class = "side-bar-element" id = "sidebar-section-one">
+                <a href="">Home</a>
+                <a href="">Profile</a>
+                <a href="">Messages</a>
+                <a href="">History</a>
+                <a href="">Tasks</a>
+                <a href="">Communities</a>
+            </div>
+            <div class = "side-bar-element" id = "sidebar-section-two">
+                <a href="">Settings</a>
+                <a href="">Support</a>
+                <a href="">Privacy</a>
+            </div>
+        </aside>
 
-    </aside>
+        <main>
+            <section class = "header">
+                <div id = "header-top">
+                    <div id = "search">
+                        <span id = "search-icon">🔍</span>
+                        <input type = "text" id = "search-bar">
+                    </div>
+                    <div id = "profile">
+                        <a href=""><img src = "./media/bell-ring.png" id = "bell-icon"></a>
+                        <p>Joshua Concepcion</p>
+                    </div>
+                </div>
 
-    <section class = "header">
+                <div id = "header-bottom">
+                    <div id = "profile-welcome">
+                        <img src = "/media/cat.png" id = "profile-picture">
+                        <p>Welcome back, <br><span id = "profile-name">Joshua</span></p>
+                    </div>
 
-    </section>
+                    <div id = "action-buttons">
+                        <button class = "action-button">New</button>
+                        <button class = "action-button">Upload</button>
+                        <button class = "action-button">Share</button>
+                    </div>
+                </div>
+            </section>
 
-    <section class = "cards">
-        
-    </section>
+            <section class = "project-container">
+                <div class = "projects">
+                    <h2>Your Projects</h2>
+                    <div class = "project-grid">
+                        <div class = "card">
+                            <div class = "card-top">
+                                <h2>Placeholder Title</h2>
+                                <p>Placeholder description for project...</p>
+                            </div>
+                            <div class = "card-bottom">
+                                <a href="">
+                                    <img src = "/media/book-add.png">
+                                </a>
+                                <a href="">
+                                    <img src = "/media/bookmark-star.png">
+                                </a>
+                                <a href="">
+                                    <img src = "/media/share.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class = "card">
+                            <div class = "card-top">
+                                <h2>Placeholder Title</h2>
+                                <p>Placeholder description for project...</p>
+                            </div>
+                            <div class = "card-bottom">
+                                <a href="">
+                                    <img src = "/media/book-add.png">
+                                </a>
+                                <a href="">
+                                    <img src = "/media/bookmark-star.png">
+                                </a>
+                                <a href="">
+                                    <img src = "/media/share.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class = "card">
+                            <div class = "card-top">
+                                <h2>Placeholder Title</h2>
+                                <p>Placeholder description for project...</p>
+                            </div>
+                            <div class = "card-bottom">
+                                <a href="">
+                                    <img src = "/media/book-add.png">
+                                </a>
+                                <a href="">
+                                    <img src = "/media/bookmark-star.png">
+                                </a>
+                                <a href="">
+                                    <img src = "/media/share.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class = "card">
+                            <div class = "card-top">
+                                <h2>Placeholder Title</h2>
+                                <p>Placeholder description for project...</p>
+                            </div>
+                            <div class = "card-bottom">
+                                <a href="">
+                                    <img src = "/media/book-add.png">
+                                </a>
+                                <a href="">
+                                    <img src = "/media/bookmark-star.png">
+                                </a>
+                                <a href="">
+                                    <img src = "/media/share.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "etc">
+                    <div class = "announcements">
+                        <h2>Announcemments</h2>
+                        <div class = "card">
+                            <h2>Announcement</h2>
+                            <p>Placeholder description for announcement...</p>
+                        </div>
+                    </div>
+                    <div class = "trending">
+                        <h2>Trending</h2>
+                        <div class = "card">
+                            <h2>Placeholder Title</h2>
+                            <p>Placeholder description for announcement...</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
